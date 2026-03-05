@@ -1,0 +1,15 @@
+text = input("Enter text: ")
+
+alpha = digit = special = 0
+
+for ch in text:
+    if ch.isalpha():
+        alpha += 1  
+    elif ch.isdigit():
+        digit += 1
+    else:
+        special += 1
+
+print("Alphabets:", alpha)
+print("Numbers:", digit)
+print("Special characters:", special)

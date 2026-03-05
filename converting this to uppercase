@@ -1,0 +1,19 @@
+def string_to_uppercase(text):
+  string = ""
+  for char in text:
+    
+      string = text.upper()
+      return string
+name = input("enter the string:")
+
+result = string_to_uppercase(name)
+print(result)   
+
+
+
+
+name = input("enter the string:")
+def lower_to_upper(name):
+    for ab in name:
+        print(ab.upper())
+lower_to_upper(name)
