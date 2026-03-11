@@ -1,0 +1,16 @@
+# def reverse_list(data):
+#     ans = []
+#     for num in data:
+
+#         ans = [num]+ ans
+#     return ans
+# # print(reverse_list([10,20,30,40]))
+# it is the another method for reverse the string
+
+def reverse_list(data):
+    rev = []
+    n = len(data)
+    for n in range(n-1,-1,-1):
+     rev.append(data[n])
+    return rev
+print(reverse_list([10,20,30,40]))
